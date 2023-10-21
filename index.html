@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pygame on Website</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="550" height="550"></canvas>
+    <script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html>
